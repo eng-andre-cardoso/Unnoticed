@@ -1,0 +1,15 @@
+digraph "cADS1115::startCommunication"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="cADS1115::startCommunication",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="cADS1115::ADS1115_readADC\l_singleEnded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classc_a_d_s1115.html#afe21c0dfa0ce09883cc0818d78138b6f",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="cweight_sensor::checkChild\lSeated",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcweight__sensor.html#a49c197f2f6291df529e14ded6d9ff0a3",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$testadc_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+}

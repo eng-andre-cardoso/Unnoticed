@@ -1,0 +1,11 @@
+digraph "ds18b20_read_byte"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="ds18b20_read_byte",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="ds18b20_read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd__temp__sensor_8c.html#a3825ebd66392b1ec98967a5710453cd6",tooltip=" "];
+}

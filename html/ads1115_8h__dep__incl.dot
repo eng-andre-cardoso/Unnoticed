@@ -1,0 +1,16 @@
+digraph "Files/ads1115.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Files/ads1115.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Header module for configuration of the ADC via I2C."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="Files/weight_sensor.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$weight__sensor_8h.html",tooltip="Header module for an abstract weigh sensor."];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="Files/p_sensors_reading.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$p__sensors__reading_8cpp.html",tooltip="Process sensors reading."];
+  Node2 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="Files/testadc.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$testadc_8cpp.html",tooltip="Unit teste for testing the ADC."];
+  Node2 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="Files/weight_sensor.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$weight__sensor_8cpp.html",tooltip="Module implementation for an abstract weigh sensor."];
+}

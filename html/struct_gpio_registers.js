@@ -1,0 +1,26 @@
+var struct_gpio_registers =
+[
+    [ "GPAFEN", "struct_gpio_registers.html#aa1c9f5c4f0606f32858fefd20651c173", null ],
+    [ "GPAREN", "struct_gpio_registers.html#a9ca613547c85ed1a26b0a2ca9d4629cc", null ],
+    [ "GPCLR", "struct_gpio_registers.html#a4af3c38ab25074c3c4ff1c60122d8560", null ],
+    [ "GPEDS", "struct_gpio_registers.html#a8f4adc915013fba34a5f406400056eb1", null ],
+    [ "GPFEN", "struct_gpio_registers.html#a9bd0a4479a531ee4c702368ac46d0feb", null ],
+    [ "GPFSEL", "struct_gpio_registers.html#aa92373eacc0f82a86ed89e120099ba24", null ],
+    [ "GPHEN", "struct_gpio_registers.html#a58ebe2f0f11aadd1871bc1d7a0534504", null ],
+    [ "GPIO_PUP_PDN_CNTRL_REG", "struct_gpio_registers.html#a3709c4cf7a57ac1cf7267f50b56572bc", null ],
+    [ "GPLEN", "struct_gpio_registers.html#a5d61b08e2ba788b4166af45e5efb2160", null ],
+    [ "GPLEV", "struct_gpio_registers.html#a19397fdec2d23d82910dea9ff866f84d", null ],
+    [ "GPREN", "struct_gpio_registers.html#a18a2dd5f72f533501517b3a427825446", null ],
+    [ "GPSET", "struct_gpio_registers.html#a0a4ea7e54be1e2396acb109518b99fd0", null ],
+    [ "Reserved1", "struct_gpio_registers.html#a0024903f21adac7c9ce2ff501e5446a2", null ],
+    [ "Reserved10", "struct_gpio_registers.html#a5169b8ec4dc6e969e2bfbc84c8dc0cc5", null ],
+    [ "Reserved11", "struct_gpio_registers.html#a22c1abd80a206731ab5d9bb2881903fe", null ],
+    [ "Reserved2", "struct_gpio_registers.html#a30e6fe11264fcd8bfed961e60e823be1", null ],
+    [ "Reserved3", "struct_gpio_registers.html#ae1f27ed3db0a8bf24df48560d3798e7f", null ],
+    [ "Reserved4", "struct_gpio_registers.html#a7deb76741f6fa32eb4d3886a191163a9", null ],
+    [ "Reserved5", "struct_gpio_registers.html#afcf834c65b146eace653cd6edacc8872", null ],
+    [ "Reserved6", "struct_gpio_registers.html#acefbc4f217a18442c315319fbaece7b0", null ],
+    [ "Reserved7", "struct_gpio_registers.html#a1f93551960f8cbfccb0e23059a2f210f", null ],
+    [ "Reserved8", "struct_gpio_registers.html#a508a596fa9e2bef8554cbf885f6ae7f1", null ],
+    [ "Reserved9", "struct_gpio_registers.html#ad82c1e15efc236ddd909f04c930cc0ab", null ]
+];

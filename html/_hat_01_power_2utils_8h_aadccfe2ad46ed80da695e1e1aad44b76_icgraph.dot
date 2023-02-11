@@ -1,0 +1,26 @@
+digraph "SetGPIOFunction"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="SetGPIOFunction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="ds18b20_get_bit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#a37059a64449980f5cb9f74cfe730ffcc",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="ds18b20_read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd__temp__sensor_8c.html#a3825ebd66392b1ec98967a5710453cd6",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="ds18b20_read_byte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#ae633143719a2503b13915650c26c1d51",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="ds18b20_reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#a2bee8ef8be46821361ce15e30bbf3da7",tooltip=" "];
+  Node5 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node1 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="ds18b20_write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd__temp__sensor_8c.html#a4f07b1b3f1ebcc2e6cc345211a853e38",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="ds18b20_write_bit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#a162aef40a44cf268a0cfb2d3ae370e1f",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="ds18b20_write_byte",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#a980f9fea28b077066a54472131622228",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="steelblue1",style="solid"];
+}

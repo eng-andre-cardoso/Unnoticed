@@ -1,0 +1,11 @@
+digraph "cBluetooth::validateTrama"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [label="cBluetooth::validateTrama",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This function validate and parser de packet receive from the bluetooth."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="cBluetooth::parserBluetooth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classc_bluetooth.html#a2752043ed71190bb3301effaaabbac49",tooltip="Do the parse to the bluetooth trama Receive a buffer of char with is length."];
+}

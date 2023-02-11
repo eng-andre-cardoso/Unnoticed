@@ -1,0 +1,13 @@
+digraph "SetGPIOFunction"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="SetGPIOFunction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="SetGPIOOutputValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_hat_01_power_2utils_8c.html#a9f246aa94eef6c585e275a88e1f81606",tooltip=" "];
+  Node1 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="setGPIOPullUD",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$utils_8c.html#abafd7259b5cb7246a7dbc30ff16541f5",tooltip=" "];
+}

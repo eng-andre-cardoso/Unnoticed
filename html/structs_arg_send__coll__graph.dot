@@ -1,0 +1,14 @@
+digraph "sArgSend"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="sArgSend",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" bluetoothDevice",fontcolor="grey" ];
+  Node2 [label="cBluetooth",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classc_bluetooth.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" gsmDevice",fontcolor="grey" ];
+  Node3 [label="cGSM",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classc_g_s_m.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" gpsDevice",fontcolor="grey" ];
+  Node4 [label="cGPS",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$classc_g_p_s.html",tooltip="CLASS GPS USED TO READ THE MODULO GPS GPS-NEO-6 HAVE FUNCTION TO READ THE UART AND FUNCTION TO PARSER..."];
+}
